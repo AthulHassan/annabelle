@@ -21,12 +21,12 @@ async def start(client, message):
                 InlineKeyboardButton('🤖 Updates', url='https://t.me/NETFLIXINDIA2022')
             ],
             [
-                InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/NETFLIXINDIA2022"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
-        await asyncio.sleep(2) # 😢 Https://github.com/vaishnavofficial/annabelle 😬 wait a bit, before checking.
+        await asyncio.sleep(2) # 😢 https://github.com/AthulHassan/annabelle 😬 wait a bit, before checking.
         if not await db.get_chat(message.chat.id):
             total=await client.get_chat_members_count(message.chat.id)
             await client.send_message(LOG_CHANNEL, script.LOG_TEXT_G.format(message.chat.title, message.chat.id, total, "Unknown"))       
@@ -37,12 +37,12 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('⭕️ ENNA NINTE GRUOPIL ADD CHEY ⭕️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/EvaMariaUpdates')
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/NETFLIXINDIA2022')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
+            InlineKeyboardButton('ℹ️ Help', https://t.me/HELPCHANNEL2022),
             InlineKeyboardButton('😊 About', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -62,7 +62,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "🤖 Join Updates Channel", https://t.me/NETFLIXINDIA2022
                 )
             ]
         ]
