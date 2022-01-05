@@ -28,7 +28,7 @@
 - [x] Random pics
 - [x] ids and User info 
 - [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
-- [x] Spelling Check Feature
+- [x] Spelling Check Feature തന്റെ സ്പെല്ലിങ് നോക്ക്
 
 ## Variables
 
